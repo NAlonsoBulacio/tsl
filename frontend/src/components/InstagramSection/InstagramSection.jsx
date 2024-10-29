@@ -17,7 +17,7 @@ const InstagramSection = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div
-        className="absolute top-1/2 right-2 lg:-right-10 transform -translate-y-1/2 z-10 cursor-pointer text-white bg-[#00314b] p-2 rounded-full"
+        className="absolute top-1/2 right-2 lg:-right-10 transform -translate-y-1/2 z-50 cursor-pointer text-white bg-[#00314b] p-2 rounded-full "
         onClick={onClick}
       >
         <IoIosArrowForward  size={30} />
@@ -68,13 +68,10 @@ const InstagramSection = () => {
   };
 
   return (
-    <div id="community" className=" py-20 px-2">
-      <motion.div
-        className="max-w-7xl mx-auto text-center"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1.6 }}
-        viewport={{ once: true, amount: 0.3 }}
+    <div id="community" className="w-full  py-20 px-2">
+      <div
+        className="max-w-7xl mx-auto text-center "
+
       >
         
         <Slider {...settings} className="w-full flex justify-center">
@@ -94,7 +91,7 @@ const InstagramSection = () => {
           ))}
         </Slider>
         
-      </motion.div>
+      </div>
     </div>
   );
 };

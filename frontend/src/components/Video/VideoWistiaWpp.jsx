@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import RegistroPhone from "../Registro/RegistroPhone";
-import AnimatedButtonCalendly from "../AnimatedButton/AnimatedButtonCalendly";
+// import AnimatedButtonCalendly from "../AnimatedButton/AnimatedButtonCalendly";
 import { useLocation } from "react-router-dom";
 import AnimatedButtonWpp from "../AnimatedButton/AnimatedButtonWpp";
 import "./Video.css";
