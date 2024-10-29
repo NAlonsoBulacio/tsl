@@ -88,6 +88,7 @@ const InstagramSection = () => {
                 src={video}
                 title={`Wistia Video ${index + 1}`}
                 allowFullScreen
+                loading="lazy"
               ></iframe>
             </div>
           ))}
