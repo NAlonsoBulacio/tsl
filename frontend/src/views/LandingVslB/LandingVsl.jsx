@@ -5,6 +5,7 @@ import logo from "../../assets/logo/logo_blanco-re.png";
 import Footer from "../../components/Footer/Footer";
 import ModalButton from "../../components/ModalButton/ModalButton";
 import users from "../../utils"; // Importamos el array de usuarios
+import InstagramSection from "../../components/InstagramSection/InstagramSection";
 
 const LandingVsl = () => {
   const { slug } = useParams(); // Obtenemos el slug de la URL
@@ -48,6 +49,9 @@ const LandingVsl = () => {
         </div>
         <div className="px-3 lg:px-14 xl:px-[9rem] pt-2 lg:pt-6">
           <TitleAndVideo video={"wpp"} calendlyPage={calendlyPage} data={data} />
+        </div>
+        <div className="px-3 lg:px-14 xl:px-[9rem] pt-2 lg:pt-6">
+          <InstagramSection  />
         </div>
       </div>
       <div className="bg-gray-900 py-4 border-t-[1px] border-[#062f70]">

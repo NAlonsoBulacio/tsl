@@ -3,9 +3,7 @@ import TitleAndVideo from "../../components/TitleAndVideo/TitleAndVideo";
 import background2 from "../../assets/background2.png";
 import logo from "../../assets/logo/logo_blanco-re.png";
 import Footer from "../../components/Footer/Footer";
-import ModalButton from "../../components/ModalButton/ModalButton";
-import { Link } from "react-router-dom";
-
+import InstagramSection from "../../components/InstagramSection/InstagramSection";
 
 const LandingVsl = () => {
   const background2Style = {
@@ -88,6 +86,7 @@ const wppNumber = "+5491126997232"
               <Gifts calendlyPage={calendlyPage} />
               <OfferSection calendlyPageUrl={calendlyPage} />
             </div> */}
+            <InstagramSection />
       </div>
       <div className="bg-gray-900 py-4 border-t-[1px] border-[#062f70]">
         <Footer />

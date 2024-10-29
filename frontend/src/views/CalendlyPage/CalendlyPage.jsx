@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../../components/Footer/Footer";
 import Calendly from "../../components/Calendly/Calendly";
 import logo from "../../assets/logo/logo_blanco-re.png";
-import { useLocation, useParams } from "react-router-dom"; // Importamos useParams
+import { useParams } from "react-router-dom"; // Importamos useParams
 import History from "../../components/History/History";
 import Actually from "../../components/Actually/Actually";
 import Pilares from "../../components/Pilares/Pilares";
