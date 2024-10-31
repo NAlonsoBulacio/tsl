@@ -70,8 +70,8 @@ const InstagramSection = () => {
     <div id="community" className="w-full py-10 lg:py-20 px-2">
       <div className="mb-4">
         <h1 className="lato-black text-gray-200 text-xl lg:text-4xl text-balance uppercase">
-          Lo Que la Comunidad de <span className="text-[#289ff0]">TSL</span>{" "}
-          dice:
+        Historias de éxito en <span className="text-[#289ff0]">TSL</span>{" "}
+         
         </h1>
       </div>
       <div className="max-w-7xl mx-auto text-center ">
