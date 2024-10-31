@@ -61,7 +61,7 @@ const LandingVsl = () => {
       <div className="bg-gray-900 py-4 border-t-[1px] border-[#062f70] pb-32">
         <Footer />
       </div>
-      <ModalButton calendlyPage={calendlyPage} />
+      <ModalButton calendlyPage={calendlyPage} dataUser={data} />
     </div>
   );
 };
