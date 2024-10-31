@@ -47,7 +47,7 @@ const LandingVsl = () => {
         <div className="w-screen h-14 lg:h-20 flex justify-center items-center border-b-[1px] border-[#062f70]">
           <img className="w-14 lg:w-20" src={logo} alt="logo" />
         </div>
-        <div className="px-3 lg:px-14 xl:px-[9rem] pt-2 lg:pt-6">
+        <div className="px-4 lg:px-14 xl:px-[9rem] pt-2 lg:pt-6">
           <TitleAndVideo video={"wpp"} calendlyPage={calendlyPage} data={data} />
         </div>
         {/* <div className="px-3 lg:px-14 xl:px-[9rem] pt-2 lg:pt-6">
