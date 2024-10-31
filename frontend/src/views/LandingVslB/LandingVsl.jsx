@@ -58,7 +58,7 @@ const LandingVsl = () => {
       <div className="overflow-hidden lg:overflow-visible bg-gray-900 ">
          <InstagramSection  />
          </div>
-      <div className="bg-gray-900 py-4 border-t-[1px] border-[#062f70]">
+      <div className="bg-gray-900 py-4 border-t-[1px] border-[#062f70] pb-32">
         <Footer />
       </div>
       <ModalButton calendlyPage={calendlyPage} />

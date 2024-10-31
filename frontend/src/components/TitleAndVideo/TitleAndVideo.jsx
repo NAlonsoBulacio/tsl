@@ -13,7 +13,7 @@ const TitleAndVideo = ({ video, calendlyPage, data }) => {
       </h1>
 
       <p className="lato-regular-italic text-sm lg:text-lg text-gray-100">
-      Más de $1.000.000 generados a través de Copytrading
+      Más de $2.500.000 generados en trading
       </p>
       <div className="flex justify-center w-full">
         {video === "wpp" && (

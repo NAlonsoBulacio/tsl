@@ -9,7 +9,7 @@ const ModalButton = ({ calendlyPage }) => {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
 
-      if (scrollPosition > 1 * windowHeight) {
+      if (scrollPosition > 0.3 * windowHeight) {
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -38,7 +38,7 @@ const ModalButton = ({ calendlyPage }) => {
       }`}
     >
       <span className="text-2xl uppercase">reservá tu cupo</span>
-      <span className="subtext text-sm lg:text-lg text-balance">
+      <span className="subtext text-xs lg:text-lg text-balance">
         Y comienza a implementar este nuevo modelo de negocio ahora
       </span>
     </button>
