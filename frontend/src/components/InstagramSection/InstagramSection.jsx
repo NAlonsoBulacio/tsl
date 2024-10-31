@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const videos = [
   "https://fast.wistia.net/embed/iframe/cc8e9klrjb",
+  "https://fast.wistia.net/embed/iframe/4ygnvjosj9",
   "https://fast.wistia.net/embed/iframe/40j6vrstx2",
   "https://fast.wistia.net/embed/iframe/w9gr63dilk",
   "https://fast.wistia.net/embed/iframe/01odkd1bam",
