@@ -62,7 +62,7 @@ const ModalButton = ({ dataUser }) => {
     >
       <span className="text-2xl uppercase">reservá tu cupo</span>
       <span className="subtext text-xs lg:text-lg text-balance">
-        Y comienza a implementar este nuevo modelo de negocio ahora
+        Y comienza a implementar este nuevo método de copytrading ahora
       </span>
     </button>
   );
