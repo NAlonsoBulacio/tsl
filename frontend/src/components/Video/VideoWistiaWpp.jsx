@@ -112,7 +112,7 @@ const VideoWistiaWpp = ({ dataUser}) => {
         </div>
         
       </div>
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center px-2">
         {showButton && <AnimatedButtonWpp wppUrl={wppUrl} handleShowForm={handleShowForm} />}
       </div>
       {showForm && (
