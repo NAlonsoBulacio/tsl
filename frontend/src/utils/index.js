@@ -284,6 +284,30 @@ const users = [
       "https://wa.me/5491171073175?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+5491171073175",
   },
+  {
+    name: "Jonathan Veron",
+    slug: "jonathan-veron",
+    cwppLink:
+      "https://wa.me/5491169968736?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491169968736",
+    email: "jonathanmatiasveron@gmail.com",
+  },
+  {
+    name: "Matias Guzmán",
+    slug: "matias-guzman",
+    cwppLink:
+      "https://wa.me/5493434660679?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493434660679",
+    email: "mguz300@gmail.com",
+  },
+  {
+    name: "Julieta Malaspina",
+    slug: "julieta-malaspina",
+    cwppLink:
+      "https://wa.me/5492235895763?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492235895763",
+    email: "julii.malaspina@gmail.com",
+  },
 ];
 
 export default users;
