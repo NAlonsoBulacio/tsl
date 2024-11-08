@@ -308,6 +308,62 @@ const users = [
     wppNumber: "+5492235895763",
     email: "julii.malaspina@gmail.com",
   },
+  {
+    name: "Juan Ignacio Martínez",
+    slug: "juan-ignacio-martinez",
+    cwppLink:
+      "https://wa.me/5492213647952?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492213647952",
+  },
+  {
+    name: "Hugo Luis Cáceres",
+    slug: "hugo-luis-caceres",
+    cwppLink:
+      "https://wa.me/5492984387685?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492984387685",
+  },
+  {
+    name: "Camila Rocío Gonzalez Battini",
+    slug: "camila-rocio-gonzalez-battini",
+    cwppLink:
+      "https://wa.me/5491132948373?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491132948373",
+  },
+  {
+    name: "Leonardo Alvarez",
+    slug: "leonardo-alvarez",
+    cwppLink:
+      "https://wa.me/5491123718929?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491123718929",
+  },
+  {
+    name: "Pablo Di Benedetto",
+    slug: "pablo-di-benedetto",
+    cwppLink:
+      "https://wa.me/5492234238363?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492234238363",
+  },
+  {
+    name: "Nicolas Federico",
+    slug: "nicolas-federico",
+    cwppLink:
+      "https://wa.me/5491162218312?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491162218312",
+  },
+  {
+    name: "Candela Gutierrez",
+    slug: "candela-gutierrez",
+    cwppLink:
+      "https://wa.me/5491171279102?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491171279102",
+  },
+  {
+    name: "Nahuel Vivardo",
+    slug: "nahuel-vivardo",
+    cwppLink:
+      "https://wa.me/5492212260729?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492212260729",
+  },
 ];
 
 export default users;
