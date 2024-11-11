@@ -364,6 +364,160 @@ const users = [
       "https://wa.me/5492212260729?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+5492212260729",
   },
+  {
+    name: "Lucas Erretegui",
+    slug: "lucas-erretegui",
+    cwppLink:
+      "https://wa.me/5492215578525?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492215578525",
+  },
+  {
+    name: "Baez Matias Lautaro",
+    slug: "baez-matias-lautaro",
+    cwppLink:
+      "https://wa.me/5492215924574?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492215924574",
+  },
+  {
+    name: "Nicolás Ordinas",
+    slug: "nicolas-ordinas",
+    cwppLink:
+      "https://wa.me/5492216555373?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492216555373",
+  },
+  {
+    name: "Lis Huilen Maive Dominguez",
+    slug: "lis-huilen-maive-dominguez",
+    cwppLink:
+      "https://wa.me/5491165611555?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491165611555",
+  },
+  {
+    name: "Maximiliano Jara",
+    slug: "maximiliano-jara",
+    cwppLink:
+      "https://wa.me/5491168528905?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491168528905",
+  },
+  {
+    name: "Vanina Gisel Mansione",
+    slug: "vanina-gisel-mansione",
+    cwppLink:
+      "https://wa.me/5491162217842?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491162217842",
+  },
+  {
+    name: "Ignacio Marquez",
+    slug: "ignacio-marquez",
+    cwppLink:
+      "https://wa.me/5493417410049?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493417410049",
+  },
+  {
+    name: "Pablo Cepeda",
+    slug: "pablo-cepeda",
+    cwppLink:
+      "https://wa.me/5492494671092?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492494671092",
+  },
+  {
+    name: "Exequiel Huljich",
+    slug: "exequiel-huljich",
+    cwppLink:
+      "https://wa.me/5493416209545?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493416209545",
+  },
+  {
+    name: "Pablo Scorpo",
+    slug: "pablo-scorpo",
+    cwppLink:
+      "https://wa.me/5493518598485?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493518598485",
+  },
+  {
+    name: "Cristian Leandro Coronel",
+    slug: "cristian-leandro-coronel",
+    cwppLink:
+      "https://wa.me/5491168845267?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491168845267",
+  },
+  {
+    name: "Joaquín Dominguez",
+    slug: "joaquin-dominguez",
+    cwppLink:
+      "https://wa.me/5491173645792?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491173645792",
+  },
+  {
+    name: "Barbara Ferreyra",
+    slug: "barbara-ferreyra",
+    cwppLink:
+      "https://wa.me/5491166257156?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491166257156",
+  },
+  {
+    name: "Leandro Bordon",
+    slug: "leandro-bordon",
+    cwppLink:
+      "https://wa.me/5491138753320?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491138753320",
+  },
+  {
+    name: "Gastón Dacoba",
+    slug: "gaston-dacoba",
+    cwppLink:
+      "https://wa.me/5492235401458?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492235401458",
+  },
+  {
+    name: "Gala Saldivar",
+    slug: "gala-saldivar",
+    cwppLink:
+      "https://wa.me/61468931373?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+61468931373",
+  },
+  {
+    name: "Franco Acha",
+    slug: "franco-acha",
+    cwppLink:
+      "https://wa.me/34692940858?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+34692940858",
+  },
+  {
+    name: "Melany Venditti",
+    slug: "melany-venditti",
+    cwppLink:
+      "https://wa.me/5491125717265?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491125717265",
+  },
+  {
+    name: "Nahuel David Fernández",
+    slug: "nahuel-david-fernandez",
+    cwppLink:
+      "https://wa.me/5491127859080?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491127859080",
+  },
+  {
+    name: "Magali Scott",
+    slug: "magali-scott",
+    cwppLink:
+      "https://wa.me/5491125131940?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491125131940",
+  },
+  {
+    name: "Ignacio Stoffel",
+    slug: "ignacio-stoffel",
+    cwppLink:
+      "https://wa.me/5493492563652?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493492563652",
+  },
+  {
+    name: "Nicolás Arduino",
+    slug: "nicolas-arduino",
+    cwppLink:
+      "https://wa.me/5493493449206?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493493449206",
+  },
 ];
 
 export default users;
