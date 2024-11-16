@@ -518,6 +518,19 @@ const users = [
       "https://wa.me/5493493449206?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+5493493449206",
   },
+   {
+    name: "Walter Santiago Firpo",
+    slug: "walter-firpo",
+    cwppLink:
+      "https://wa.me/+541145582051?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+541145582051",
+  },
+   {
+    name: "valentín richero",
+    slug: "valentín-richero",
+    cwppLink:
+      "https://wa.me/+542216766419?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+542216766419
 ];
 
 export default users;
