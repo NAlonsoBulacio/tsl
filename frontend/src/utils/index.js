@@ -527,7 +527,7 @@ const users = [
   },
    {
     name: "valentín richero",
-    slug: "valentín-richero",
+    slug: "valentin-richero",
     cwppLink:
       "https://wa.me/+542216766419?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+542216766419",
