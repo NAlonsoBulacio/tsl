@@ -501,8 +501,8 @@ const users = [
     name: "Magali Scott",
     slug: "magali-scott",
     cwppLink:
-      "https://wa.me/5491125131940?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5491125131940",
+      "https://wa.me/5491134429640?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491134429640",
   },
   {
     name: "Ignacio Stoffel",
