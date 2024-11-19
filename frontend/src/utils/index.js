@@ -338,7 +338,7 @@ const users = [
   },
   {
     name: "Pablo Di Benedetto",
-    slug: "pablo-di-benedetto",
+    slug: "00384475",
     cwppLink:
       "https://wa.me/5492235969366?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+5492235969366",
@@ -532,6 +532,29 @@ const users = [
       "https://wa.me/+542216766419?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+542216766419",
    },
+      
+
+  {
+    name: "Matías Ezequiel Fernández	",
+    slug: "matias-fernandez",
+    cwppLink:
+      "https://wa.me/5493515069683?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493515069683",
+  },
+  {
+    name: "Karen Nicole de Los Santos",
+    slug: "karen-de-los-santos",
+    cwppLink:
+      "https://wa.me/5491141879565?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491141879565",
+  },
+  {
+    name: "Joaquín kapfer",
+    slug: "joaquin-kapfer",
+    cwppLink:
+      "https://wa.me/5493541279571?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493541279571",
+  },
       
 
   {
