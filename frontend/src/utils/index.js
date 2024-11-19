@@ -341,7 +341,7 @@ const users = [
     slug: "pablo-di-benedetto",
     cwppLink:
       "https://wa.me/5492235969366?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5492235969366 ",
+    wppNumber: "+5492235969366",
   },
   {
     name: "Nicolas Federico",
