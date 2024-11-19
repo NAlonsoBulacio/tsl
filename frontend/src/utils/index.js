@@ -558,25 +558,32 @@ const users = [
       
 
   {
-    name: "Matías Ezequiel Fernández	",
-    slug: "matias-fernandez",
+    name: "Marcela Medina",
+    slug: "marcela-medina",
     cwppLink:
-      "https://wa.me/5493515069683?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5493515069683",
+      "https://wa.me/5493812189417?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493812189417",
   },
   {
-    name: "Karen Nicole de Los Santos",
-    slug: "karen-de-los-santos",
+    name: "Leandro Raggio",
+    slug: "leandro-raggio",
     cwppLink:
-      "https://wa.me/5491141879565?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5491141879565",
+      "https://wa.me/5492236503454?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492236503454",
   },
   {
-    name: "Joaquín kapfer",
-    slug: "joaquin-kapfer",
+    name: "Lis Huilen Maive Dominguez",
+    slug: "lis-dominguez",
     cwppLink:
-      "https://wa.me/5493541279571?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5493541279571",
+      "https://wa.me/5491170633432?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491170633432",
+  },
+  {
+    name: "Christian Juárez",
+    slug: "christian-juarez",
+    cwppLink:
+      "https://wa.me/5492236614049?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492236614049",
   },
 ];
 
