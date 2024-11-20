@@ -5,7 +5,7 @@ const TitleAndVideo = ({ video, calendlyPage, data }) => {
     <div className="flex flex-wrap justify-center items-start text-center space-y-4">
       <h1 className="lato-black text-gray-200 text-xl lg:text-5xl text-balance uppercase">
         <span className="text-[#289ff0]"> Trader Argentino </span> Comparte un
-        Sistema Probado que
+        Sistema Probado Que {" "}
         <span className="text-[#289ff0]">
           Cualquiera Puede Aprender y Aplicar
         </span>
