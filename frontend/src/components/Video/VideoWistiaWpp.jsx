@@ -1,89 +1,82 @@
 import React, { useState, useRef, useEffect } from "react";
 import RegistroPhone from "../Registro/RegistroPhone";
-// import AnimatedButtonCalendly from "../AnimatedButton/AnimatedButtonCalendly";
 import { useLocation } from "react-router-dom";
 import AnimatedButtonWpp from "../AnimatedButton/AnimatedButtonWpp";
 import "./Video.css";
 
-const VideoWistiaWpp = ({ dataUser}) => {
+const VideoWistiaWpp = ({ dataUser }) => {
   const [showForm, setShowForm] = useState(false);
   const [formUrl, setFormUrl] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [showButton, setShowButton] = useState(false);
-  const [showButton2, setShowButton2] = useState(false);
   const [showOverlay, setShowOverlay] = useState(true);
   const [wppCode, setWppCode] = useState("");
-  
+  const [randomMessage, setRandomMessage] = useState("");
+
   const location = useLocation();
   const isRegistered = new URLSearchParams(location.search).get("registered") === "true";
   const videoRef = useRef(null);
 
   const videoUrl = "https://fast.wistia.net/embed/iframe/m9ru0a3zgv";
+
+  const messages = [
+    "Hola! Vi la Masterclass.. Quiero reclamar mi cupo gratuito para el Grupo VIP con el código: “{code}”.",
+    "Hola! Estuve viendo la Masterclass y quiero unirme al Grupo VIP. Mi código es: “{code}”.",
+    "¡Hola! Me interesa reclamar mi cupo al Grupo VIP. Código: “{code}”.",
+    "¡Hola! Asistí a la Masterclass y quiero acceder al Grupo VIP. Mi código es: “{code}”.",
+    "Hola, ¿cómo están? Vi la Masterclass y quiero unirme al Grupo VIP. Código: “{code}”.",
+    "Hola! Reclamo mi lugar en el Grupo VIP después de ver la Masterclass. Código: “{code}”.",
+    "¡Hola! Quiero acceder al Grupo VIP tras la Masterclass. Código: “{code}”.",
+    "Hola! Vi la Masterclass y me interesa el Grupo VIP. Código: “{code}”.",
+    "Hola, vi la Masterclass y quiero unirme al Grupo VIP. Código: “{code}”.",
+    "¡Hola! Me interesa formar parte del Grupo VIP tras la Masterclass. Código: “{code}”.",
+    "Hola! Quiero asegurar mi cupo en el Grupo VIP. Código: “{code}”.",
+    "Hola, ¡me interesa el Grupo VIP después de la Masterclass! Mi código es: “{code}”.",
+    "Hola! Reclamo mi cupo en el Grupo VIP. Código: “{code}”.",
+    "Hola, ¿cómo están? Quiero acceder al Grupo VIP tras ver la Masterclass. Código: “{code}”.",
+    "¡Hola! Me interesa el Grupo VIP. Código: “{code}”.",
+    "Hola! Estoy interesado en el Grupo VIP. Código: “{code}”.",
+    "¡Hola! Quiero unirme al Grupo VIP. Código: “{code}”.",
+    "Hola, reclamo mi lugar en el Grupo VIP. Código: “{code}”.",
+    "Hola! Me interesa el Grupo VIP que mencionaron en la Masterclass. Código: “{code}”.",
+    "¡Hola! Vi la Masterclass y quiero reclamar mi cupo en el Grupo VIP. Código: “{code}”."
+  ];
+
   useEffect(() => {
-    // Generar un código aleatorio de 6 dígitos cuando se monta el componente
     const generateCode = () => {
       return Math.floor(100000 + Math.random() * 900000).toString();
     };
 
+    const getRandomMessage = () => {
+      return messages[Math.floor(Math.random() * messages.length)];
+    };
+
     setWppCode(generateCode());
+    setRandomMessage(getRandomMessage());
 
     if (videoRef.current) {
-      const command = isRegistered ? 'unMute' : 'mute';
+      const command = isRegistered ? "unMute" : "mute";
       videoRef.current.contentWindow.postMessage(
-        JSON.stringify({ event: 'command', func: command, args: [] }),
-        '*'
+        JSON.stringify({ event: "command", func: command, args: [] }),
+        "*"
       );
       videoRef.current.contentWindow.postMessage(
-        JSON.stringify({ event: 'command', func: 'playVideo', args: [] }),
-        '*'
+        JSON.stringify({ event: "command", func: "playVideo", args: [] }),
+        "*"
       );
 
       const timer1 = setTimeout(() => {
         setShowButton(true);
       }, 1000);
 
-      const timer2 = setTimeout(() => {
-        setShowButton2(true);
-      }, 180000);
-
       return () => {
         clearTimeout(timer1);
-        clearTimeout(timer2);
       };
     }
   }, [isRegistered]);
 
-  const actualizarEstadoPadre = (estado) => {
-    setShowForm(false);
-    if (estado && !formSubmitted) {
-      setFormSubmitted(true);
-      if (videoRef.current) {
-        videoRef.current.contentWindow.postMessage(
-          JSON.stringify({ event: 'command', func: 'unMute', args: [] }),
-          '*'
-        );
-        videoRef.current.contentWindow.postMessage(
-          JSON.stringify({ event: 'command', func: 'playVideo', args: [] }),
-          '*'
-        );
-        setShowOverlay(false);
-      }
-    }
-  };
-
-  const handleShowForm = (estado) => {
-    setFormUrl(estado);
-    setShowForm(true);
-  };
-
-  const handleOverlayClick = () => {
-    setShowOverlay(false);
-    actualizarEstadoPadre(true);
-  };
-
-  const wppMessage = `Hola! Vi la Masterclass.. Quiero reclamar mi cupo gratuito para el Grupo VIP con el código: “${wppCode}”`;
+  const wppMessage = randomMessage.replace("{code}", wppCode);
   const wppUrl = `https://wa.me/${dataUser.wppNumber}?text=${encodeURIComponent(wppMessage)}`;
-
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center pb-4">
@@ -96,44 +89,12 @@ const VideoWistiaWpp = ({ dataUser}) => {
             allow="autoplay"
             frameBorder="0"
             title="Wistia Video"
-            allowFullScreen
-            onLoad={() => {
-              const command = isRegistered ? 'unMute' : 'mute';
-              videoRef.current.contentWindow.postMessage(
-                JSON.stringify({ event: 'command', func: command, args: [] }),
-                '*'
-              );
-              videoRef.current.contentWindow.postMessage(
-                JSON.stringify({ event: 'command', func: 'playVideo', args: [] }),
-                '*'
-              );
-            }}
           ></iframe>
         </div>
-        
       </div>
       <div className="w-full flex justify-center px-2">
-        {showButton && <AnimatedButtonWpp wppUrl={wppUrl} handleShowForm={handleShowForm} />}
+        {showButton && <AnimatedButtonWpp wppUrl={wppUrl} />}
       </div>
-      {showForm && (
-        <>
-          <div
-            className="fixed inset-0 bg-gray-800 opacity-50 z-40"
-            onClick={() => setShowForm(false)}
-          ></div>
-          <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className="bg-white p-4 rounded-lg shadow-lg">
-              <RegistroPhone 
-                redirectUrl={formUrl === 2 ? dataUser.calendlyPage : wppUrl}
-                googleSheetsUrl={dataUser.googleSheets}
-                actualizarEstado={actualizarEstadoPadre}
-                data={dataUser}
-                formUrl={formUrl}
-              /> 
-            </div>
-          </div>
-        </>
-      )}
     </div>
   );
 };
