@@ -260,8 +260,8 @@ const users = [
     name: "Candela Aymara Gutierrez",
     slug: "candela-aymara-gutierrez",
     cwppLink:
-      "https://wa.me/5491171279102?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5491171279102",
+      "https://wa.me/5491171427582?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491171427582",
   },
   {
     name: "Marcos Gauna",
@@ -354,8 +354,8 @@ const users = [
     name: "Candela Gutierrez",
     slug: "candela-gutierrez",
     cwppLink:
-      "https://wa.me/5491171279102?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5491171279102",
+      "https://wa.me/5491171427582?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5491171427582",
   },
   {
     name: "Nahuel Vivardo",
@@ -552,8 +552,8 @@ const users = [
     name: "Joaquín kapfer",
     slug: "joaquin-kapfer",
     cwppLink:
-      "https://wa.me/5493541279571?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5493541279571",
+      "https://wa.me/5493425277847?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5493425277847",
   },
       
 
