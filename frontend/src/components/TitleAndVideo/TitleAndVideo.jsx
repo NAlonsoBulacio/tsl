@@ -3,7 +3,7 @@ import VideoWistiaWpp from "../Video/VideoWistiaWpp";
 const TitleAndVideo = ({ video, calendlyPage, data }) => {
   return (
     <div className="flex flex-wrap justify-center items-start text-center space-y-4">
-      <h1 className="lato-black text-gray-200 text-xl lg:text-5xl text-balance uppercase">
+      <h1 className="lato-black text-gray-200 text-lg lg:text-5xl text-balance uppercase">
         <span className="text-[#289ff0]"> Trader Argentino </span> Comparte un
         Sistema Probado Que {" "}
         <span className="text-[#289ff0]">
