@@ -11,7 +11,7 @@ const TitleAndVideo = ({ video, calendlyPage, data }) => {
         </span>
       </h1>
 
-      <p className="lato-regular-italic text-sm lg:text-lg text-gray-100">
+      <p className="lato-regular-italic text-xs lg:text-lg text-gray-100">
       Con más de 2000 miembros en nuestra comunidad, ofrecemos el sistema más efectivo y probado del mercado para ayudarte a ser rentable en trading.
       </p>
       <div className="flex justify-center w-full">
