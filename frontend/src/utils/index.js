@@ -15,8 +15,8 @@ const users = [
     name: "Fermín Martínez",
     slug: "fermin-martinez",
     cwppLink:
-      "https://wa.me/5492921425518?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5492921425518",
+      "https://wa.me/5492921442751?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492921442751",
   },
   {
     name: "Acosta Erika",
