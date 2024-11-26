@@ -6,7 +6,7 @@ const AnimatedButtonWpp = ({ wppUrl}) => {
   const handleWppButton =  () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      event: "MetaCompleteRegristrationEvent",
+      event: "MetaCompleteRegristration",
       eventCategory: "CompleteRegistration",
       eventAction: "Submit",
      
