@@ -304,8 +304,8 @@ const users = [
     name: "Julieta Malaspina",
     slug: "julieta-malaspina",
     cwppLink:
-      "https://wa.me/5492235895763?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5492235895763",
+      "https://wa.me/5492233468966?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492233468966",
     email: "julii.malaspina@gmail.com",
   },
   {
