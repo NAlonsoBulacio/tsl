@@ -582,8 +582,8 @@ const users = [
     name: "Christian Juárez",
     slug: "christian-juarez",
     cwppLink:
-      "https://wa.me/5492236614049?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5492236614049",
+      "https://wa.me/5492233468966?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+    wppNumber: "+5492233468966",
   },
 ];
 
