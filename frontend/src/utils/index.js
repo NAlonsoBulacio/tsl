@@ -116,13 +116,13 @@ const users = [
       "https://wa.me/5491125132786?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
     wppNumber: "+5491125132786",
   },
-  {
-    name: "Raul Crisorio",
-    slug: "raul-crisorio",
-    cwppLink:
-      "https://wa.me/5493518170429?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
-    wppNumber: "+5493518170429",
-  },
+  // {
+  //   name: "Raul Crisorio",
+  //   slug: "raul-crisorio",
+  //   cwppLink:
+  //     "https://wa.me/5493518170429?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios",
+  //   wppNumber: "+5493518170429",
+  // },
   {
     name: "Nicolas Ruibal",
     slug: "nicolas-ruibal",
